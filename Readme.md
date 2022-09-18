@@ -6,7 +6,7 @@ Lighthouse is used here to store data in a decentralized way. I have stored the 
 
 I have also created a wallet instance here, which with more time could become a button, and with more time, a game using lighthouse as means of storage etc could become!
 
-Demo Link: htm-lighthouse-dapp.vercel.app
+Demo Link: https://htm-lighthouse-dapp.vercel.app/
 
 Image of UI from afar, enter the realm via the link and zoom in, find where you can interact and let the magic unfold = 
 
