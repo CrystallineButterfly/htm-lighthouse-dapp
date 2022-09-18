@@ -1,7 +1,8 @@
 import { createRoot } from "react-dom/client";
 import { Canvas } from "@react-three/fiber";
 // import useSound from "use-sound";
-// import Song from "./mind-control.mp3";
+// import lighthouse from "@lighthouse-web3/sdk";
+import Music from "./mind-control.mp3";
 import { OrbitControls, Stars } from "@react-three/drei";
 import { Physics, usePlane, useBox } from "@react-three/cannon";
 import "./App.css";
@@ -39,6 +40,12 @@ function Plane() {
 //   return <button onClick={play}>42</button>;
 // };
 
+// const status = await lighthouse.status(
+//   "QmSyi8JbvKKTAQktREZq4rEvhsYcEMNUQnTBkmsGqk12QS"
+// );
+// console.log(status);
+
+
 createRoot(document.getElementById("root")).render(
   <Canvas>
     <OrbitControls />
@@ -46,7 +53,9 @@ createRoot(document.getElementById("root")).render(
     <ambientLight intensity={0.6} />
     <spotLight position={[100, 10, 100]} angle={0.3} />
     <Physics>
-      {/* <Music /> */}
+      {/* <Music>
+        <source src="https://ipfs.io/ipfs/QmQLFF3Utu245LGLnamZSF87Tz6zxRekfWkaonMgt1gVuj" />
+      </Music> */}
       <Box />
       <Plane />
     </Physics>
