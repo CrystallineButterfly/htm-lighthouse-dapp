@@ -1,4 +1,4 @@
-Hello there, 
+Hello there 👽
 
 Here is a fun 3d realm, while also being a DAPP made for the HTM 3.0 Hackathon. I wish for this to be a lightouse to all in the data seas. 
 
@@ -12,4 +12,4 @@ Image of UI from afar, enter the realm via the link and zoom in, find where you 
 
 ![htm](https://user-images.githubusercontent.com/95975209/190882127-d885ff8a-7fec-4445-a421-1b1ea30abeef.png)
 
-All the best - K
+All the best - K 🦋
